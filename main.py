@@ -48,3 +48,11 @@ my_numb3 = [num**2 for num in range(100)]
 my_numb4 = [num**2 for num in range(100) if num %2 ==0]
 print(my_numb3)
 print(my_numb4)
+
+my_dict = {num:num*2 for num in [1,2,3]}
+print(my_dict)
+
+some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
+duplicates = list({lett for lett in some_list if some_list.count(lett) > 1})
+
+print(duplicates)
